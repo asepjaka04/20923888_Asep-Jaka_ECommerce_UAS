@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aska Shop | Products</title>
+    <!-- Poppins font (match home) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/x-icon" href="img/icon/icon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="background-container">
+      <div class="gradient-overlay"></div>
+    </div>
+    <!-- Navbar (same as home) -->
+    <nav class="navbar">
+      <div class="logo">Aska Shop</div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="product.html">Product</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="search-cart">
+        <a class="cart-icon" href="cart.html"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Compact banner/header for products -->
+      <section class="hero" style="height: 40vh; min-height: 40vh">
+        <h1>Produk Kami</h1>
+      </section>
+      <!-- Product listing with search + filter and grid -->
+      <section class="featured-products">
+        <!-- Product grid: displays product cards -->
+        <div class="product-grid">
+          <!-- Each product-card contains image, info, and detail button -->
+          <div class="product-card">
+            <img src="img/iphone13pro.png" alt="Product 1" />
+            <div class="product-info">
+              <h3>iPhone 13 Pro</h3>
+              <p class="price">Rp 11.749.000</p>
+              <a href="product/product1.html" class="view-details-btn">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/iphone14pro.png" alt="Product 1" />
+            <div class="product-info">
+              <h3>iPhone 14 Pro</h3>
+              <p class="price">Rp 18.499.000</p>
+              <a href="product/product2.html" class="view-details-btn">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/iphone15pro.png" alt="Product 1" />
+            <div class="product-info">
+              <h3>iPhone 15 Pro</h3>
+              <p class="price">Rp 25.975.000</p>
+              <a href="product/product3.html" class="view-details-btn">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/iphone16pro.png" alt="Product 1" />
+            <div class="product-info">
+              <h3>iPhone 16 Pro</h3>
+              <p class="price">Rp 27.999.000</p>
+              <a href="product/product4.html" class="view-details-btn">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/samsunggalaxys25.png" alt="Product 1" />
+            <div class="product-info">
+              <h3>Samsung Galaxy S25</h3>
+              <p class="price">Rp 14.999.000</p>
+              <a href="product/product5.html" class="view-details-btn">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/samsunggalaxys25plus.png" alt="Product 1" />
+            <div class="product-info">
+              <h3>Samsung Galaxy S25+</h3>
+              <p class="price">Rp 17.999.000</p>
+              <a href="product/product6.html" class="view-details-btn">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/samsunggalaxys25ultra.png" alt="Product 1" />
+            <div class="product-info">
+              <h3>Samsung Galaxy S25 Ultra</h3>
+              <p class="price">Rp 28.299.0000</p>
+              <a href="product/product7.html" class="view-details-btn">Lihat Detail</a>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/samsunggalaxyzfold75g.png" alt="Product 1" />
+            <div class="product-info">
+              <h3>Samsung Galaxy Z Fold7</h3>
+              <p class="price">Rp 31.499.000</p>
+              <a href="product/product8.html" class="view-details-btn">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>&copy; 2025 Aska Shop. All rights reserved.</p>
+      </footer>
+    </main>
+  </body>
+</html>
